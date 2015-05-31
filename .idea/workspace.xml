@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9431e2f-3da4-4b05-a74b-4cd1dffe8c24" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/_header_section.html.erb" afterPath="$PROJECT_DIR$/layouts/_header_section.html.erb" />
-    </list>
+    <list default="true" id="a9431e2f-3da4-4b05-a74b-4cd1dffe8c24" name="Default" comment="" />
     <ignored path="testsite.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
