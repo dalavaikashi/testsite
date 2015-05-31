@@ -3754,7 +3754,7 @@ button, .button {
     color: #00aeef; }
   @media only screen and (min-width: 768px) {
     #location .address p {
-      text-align: right; }
+      text-align: left; }
     #location img {
       border-radius: 0 0.5em 0.5em 0; } }
 
