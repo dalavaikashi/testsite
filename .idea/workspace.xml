@@ -2,82 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9431e2f-3da4-4b05-a74b-4cd1dffe8c24" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/past/ADA CAD CAM CENTRE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/past/ADA CAD CAM CENTRE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/past/AJAX FIORI CORPORATE OFFICE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/past/AJAX FIORI CORPORATE OFFICE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/past/AJAX FIORI EXPOSED CONCRETE WORK .jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/past/AJAX FIORI EXPOSED CONCRETE WORK .jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/past/ANNEXE TO ISRO HQ.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/past/ANNEXE TO ISRO HQ.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/past/ANTRIX CORPORATION BUILNG FOR ISRO.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/past/ANTRIX CORPORATION BUILNG FOR ISRO.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/present/APPARTMENT AT BOMMASANDRA.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/present/APPARTMENT AT BOMMASANDRA.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/past/BANGALORE GOLF CLUB.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/past/BANGALORE GOLF CLUB.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/present/CIVIL WORKS AT CENTRE FOR NEUROSCIENCE AT IISC BANGALORE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/present/CIVIL WORKS AT CENTRE FOR NEUROSCIENCE AT IISC BANGALORE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/past/COCHIN INTERNATIONAL AIRPORT.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/past/COCHIN INTERNATIONAL AIRPORT.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/past/COLLEGE FOR STEM .JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/past/COLLEGE FOR STEM .JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/past/CONCRETE ROAD AT MANDUR  FOR BBMP.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/past/CONCRETE ROAD AT MANDUR  FOR BBMP.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/past/ENGINE TEST BEDS AT MITSUBISHI MYSORE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/past/ENGINE TEST BEDS AT MITSUBISHI MYSORE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/present/HANGING STRUCTURE AT SANJAYNAGAR.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/present/HANGING STRUCTURE AT SANJAYNAGAR.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/present/HYDRAULICS LAB AT IISC BANGALORE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/present/HYDRAULICS LAB AT IISC BANGALORE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/present/INDOOR STADIUM.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/present/INDOOR STADIUM.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/past/MANUFACTURING UNIT FOR AJAX FIORI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/past/MANUFACTURING UNIT FOR AJAX FIORI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/past/MITSUBISHI DIESEL ENGINES INSIDE.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/past/MITSUBISHI DIESEL ENGINES INSIDE.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/past/MITSUBISHI DIESEL ENGNES AT MYSORE.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/past/MITSUBISHI DIESEL ENGNES AT MYSORE.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/past/MULTI UTILITY CENTRE FOR ADA.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/past/MULTI UTILITY CENTRE FOR ADA.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/past/ORNAMENTAL COMPOUND WALL AT BANNIMANTAP  MYSORE.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/past/ORNAMENTAL COMPOUND WALL AT BANNIMANTAP  MYSORE.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/past/RAJATHA BHAVAN FOR BWSSB  .jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/past/RAJATHA BHAVAN FOR BWSSB  .jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/past/RESIDENTIAL APPARTMENT.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/past/RESIDENTIAL APPARTMENT.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/past/RESIDENTIAL SCHOOL AT WAYANAD.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/past/RESIDENTIAL SCHOOL AT WAYANAD.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/past/RIVER INTAKE JACK WELL AT COCHIN .jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/past/RIVER INTAKE JACK WELL AT COCHIN .jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/past/ROAD WORK AT KOLAR.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/past/ROAD WORK AT KOLAR.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/past/Road at Mitsubishi Factory.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/past/Road at Mitsubishi Factory.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/past/SERVICE CENTRE FOR INDIA GARAGE.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/past/SERVICE CENTRE FOR INDIA GARAGE.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/past/SEZ BHAVAN AT BANGALORE.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/past/SEZ BHAVAN AT BANGALORE.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/past/SWIMMING POOL COMPLES AT KC PALCE CLUB.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/past/SWIMMING POOL COMPLES AT KC PALCE CLUB.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/past/WATER TANK  &amp; W:S SYSTEM AT PILANI RAJASTHAN.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/past/WATER TANK  &amp; W:S SYSTEM AT PILANI RAJASTHAN.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/past/WATER TANK &amp;W:S SYSTEM  AT COCHIN INTERNATIONAL AIRPORT.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/past/WATER TANK &amp;W:S SYSTEM  AT COCHIN INTERNATIONAL AIRPORT.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/past/WATER TANK AND W:S LINES AT KINFRA KANNUR.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/past/WATER TANK AND W:S LINES AT KINFRA KANNUR.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/past/WATER TREATMENT PLANT AT PILANI .JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gh-pages/img/past/WATER TREATMENT PLANT AT PILANI .JPG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/checksums" afterPath="$PROJECT_DIR$/tmp/checksums" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/compiled_content" afterPath="$PROJECT_DIR$/tmp/compiled_content" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/dependencies" afterPath="$PROJECT_DIR$/tmp/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/rule_memory" afterPath="$PROJECT_DIR$/tmp/rule_memory" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/_future_section.html.erb" afterPath="$PROJECT_DIR$/layouts/_future_section.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/_location_section_old.html.erb" afterPath="$PROJECT_DIR$/layouts/_location_section_old.html.erb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/past/AJAX FIORI EXPOSED CONCRETE WORK .jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/past/COLLEGE FOR STEM .JPG" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/_past_section.html.erb" afterPath="$PROJECT_DIR$/layouts/_past_section.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/_present_section.html.erb" afterPath="$PROJECT_DIR$/layouts/_present_section.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gh-pages/index.html" afterPath="$PROJECT_DIR$/gh-pages/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="testsite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -119,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_past_section.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_past_section.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/layouts/_past_section.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.7058825">
-              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.6357616">
+              <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -189,11 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_present_section.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_present_section.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/_present_section.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59752744">
-              <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+            <state vertical-scroll-proportion="-3.0769231">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -216,9 +144,9 @@
         <option value="$PROJECT_DIR$/layouts/default.html.erb" />
         <option value="$PROJECT_DIR$/assets/css/app.sass" />
         <option value="$PROJECT_DIR$/layouts/_future_section.html.erb" />
-        <option value="$PROJECT_DIR$/layouts/_past_section.html.erb" />
         <option value="$PROJECT_DIR$/layouts/_location_section_old.html.erb" />
         <option value="$PROJECT_DIR$/layouts/_present_section.html.erb" />
+        <option value="$PROJECT_DIR$/layouts/_past_section.html.erb" />
       </list>
     </option>
   </component>
@@ -888,18 +816,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/_past_section.html.erb">
+    <entry file="file://$PROJECT_DIR$/layouts/_present_section.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.7058825">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        <state vertical-scroll-proportion="-3.0769231">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/_present_section.html.erb">
+    <entry file="file://$PROJECT_DIR$/layouts/_past_section.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59752744">
-          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.6357616">
+          <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
           <folding />
         </state>
       </provider>
