@@ -1,4 +1,4 @@
-{:	data{LI"/2015-04/:ET{:default{	:	lastI"Þ(<!DOCTYPE html>
+{:	data{wI"/2015-04/:ET{:default{	:	lastI"q*<!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -68,30 +68,35 @@
     <h2>Past Projects</h2>
   </div>
 
+
+
   <div class="row">
-    <div class="large-6 columns"  >
-      <img src="./img/IMG_0041.JPG"/>
+    <div class="large-6 columns">
+      <img src="./img/past/BANGALORE GOLF CLUB.JPG"/>
       <div>Bangalore Golf Club</div>
     </div>
-    <div class="large-6 columns" >
-      <img src="./img/IMG_5138.JPG"/>
-      <div>Jigani Management School</div>
+    <div class="large-6 columns">
+      <img src="./img/past/COLLEGE FOR STEM .JPG"/>
+
+      <div>College for STEM - Jigani</div>
     </div>
   </div>
   <div class="row">
-    <div class="large-6 columns"  >
-      <img src="./img/IMG_5135.JPG"/>
-      <div>Jigani Management School</div>
+    <div class="large-6 columns">
+      <img src="./img/past/AJAX FIORI EXPOSED CONCRETE WORK .JPG"/>
+
+      <div>AJAX Fiori exposed concrete</div>
     </div>
-    <div class="large-6 columns" >
-      <img src="./img/IMG_5283.JPG"/>
-      <div>KC palace Club</div>
+    <div class="large-6 columns">
+      <img src="./img/past/MANUFACTURING UNIT FOR AJAX FIORI.JPG"/>
+
+      <div>AJAX manufacturing unit</div>
     </div>
   </div>
   <div class="row">
-    <div class="large-6 columns"  >
-      <img src="./img/IMG_2451.jpg"/>
-      <div>Jigani Management School</div>
+    <div class="large-6 columns">
+      <img src="./img/past/MITSUBISHI DIESEL ENGNES AT MYSORE.jpg"/>
+      <div>Mitsubishi diesel engines at mysore</div>
     </div>
   </div>
 </section>
@@ -104,28 +109,28 @@
 
   <div class="row">
     <div class="large-6 columns"  >
-      <img src="./img/IMG_0041.JPG"/>
-      <div>Bangalore Golf Club</div>
+      <img src="./img/present/APPARTMENT AT BOMMASANDRA.JPG"/>
+      <div>Appartment at bommasandra</div>
     </div>
     <div class="large-6 columns" >
-      <img src="./img/IMG_5138.JPG"/>
-      <div>Jigani Management School</div>
+      <img src="./img/present/CIVIL WORKS AT CENTRE FOR NEUROSCIENCE AT IISC BANGALORE.JPG"/>
+      <div>Neuroscience IISC Bangalore</div>
     </div>
   </div>
   <div class="row">
     <div class="large-6 columns"  >
-      <img src="./img/IMG_5135.JPG"/>
-      <div>Jigani Management School</div>
+      <img src="./img/present/HYDRAULICS LAB AT IISC BANGALORE.JPG"/>
+      <div>Hydraulics lab at iisc Bangalore</div>
     </div>
     <div class="large-6 columns" >
-      <img src="./img/IMG_5283.JPG"/>
-      <div>KC palace Club</div>
+      <img src="./img/present/HANGING STRUCTURE AT SANJAYNAGAR.JPG"/>
+      <div>Hanging structure at Sanjaynagar</div>
     </div>
   </div>
   <div class="row">
     <div class="large-6 columns"  >
-      <img src="./img/IMG_2451.jpg"/>
-      <div>Jigani Management School</div>
+      <img src="./img/present/INDOOR STADIUM.jpg"/>
+      <div>Indoor stadium</div>
     </div>
   </div>
 </section>
@@ -138,16 +143,23 @@
     <div class="row">
         <div class="large-4 columns address" data--100-bottom-top="transform:translateX(-100%)" data--100-bottom="transform:translateX(0)">
             <p>
-                <span>Dalavai Technologies Pvt. Ltd.</span>
-                <span>3<sup>rd</sup> Floor, Apurupa Silpi</span>
-                <span>Above KFC, Gachibowli Village </span>
-                <span>Serilingampally Mandal, RR Dist - Hyd - 500032</span>
-                <span><small><a href="https://www.google.com/maps/place/Dalavai+Hyderabad,+Apurupa+Slipi+Sy+No+124+Part,+3rd+floor+Gachilbowli+Village+Above+KFC+Serilingampally+Mandal+RR+Dist+-+Hyd+-+500032/@17.443011,78.357426,17z/data=!3m1!4b1!4m2!3m1!1s0x3bcb9395ed638f61:0x49acd498fc2f1237?hl=en" target="_blank" rel="nofollow">&laquo; Open in Google Maps &raquo;</a></small></span>
+              <span>DALAVAI INFRASTRUCTURE</span>
+              <span>No. 19, 2nd Main, AECS Layout,</span>
+              <span>Aswathnagar, R M V Extn Stage II,</span>
+              <span>Bangalore -560094</span>
+              <br/>
+              <span>info@dalavai.co.in</span>
+              <span>jmgreddy@dalavai.co.in</span>
+              <br/>
+              <span>Ph    +9180 23513669</span>
+              <span>Fax  +9180 41687765</span>
+              <span><small><a href="https://www.google.co.in/maps/place/19,+2+nd+Main+Rd,+Ramkrishna+Layout,+Armane+Nagar,+Bengaluru,+Karnataka+560094/@13.028047,77.5796548,19z/data=!3m1!4b1!4m2!3m1!1s0x3bae17c6af0bc933:0x1215ff2519dba073?hl=en" target="_blank" rel="nofollow">&laquo; Open in Google Maps &raquo;</a></small></span>
             </p>
         </div>
 
         <div class="large-8 columns map" data-anchor-target=".address" data--100-bottom-top="transform:translateX(100%)" data--100-bottom="transform:translateX(0)">
-            <a href="https://www.google.com/maps/place/Dalavai+Hyderabad,+Apurupa+Slipi+Sy+No+124+Part,+3rd+floor+Gachilbowli+Village+Above+KFC+Serilingampally+Mandal+RR+Dist+-+Hyd+-+500032/@17.443011,78.357426,17z/data=!3m1!4b1!4m2!3m1!1s0x3bcb9395ed638f61:0x49acd498fc2f1237?hl=en" target="_blank" rel="nofollow">
+            <a href="https://www.google.co.in/maps/place/19,+2+nd+Main+Rd,+Ramkrishna+Layout,+Armane+Nagar,+Bengaluru,+Karnataka+560094/@13.028047,77.5796548,19z/data=!3m1!4b1!4m2!3m1!1s0x3bae17c6af0bc933:0x1215ff2519dba073?hl=en
+" target="_blank" rel="nofollow">
                 <img src="./img/map.png" alt="Map" align="center" />
             </a>
         </div>
@@ -6392,4 +6404,4 @@ section {
     height: 100%;
     padding: 1rem; }
 ;T;
-@È;{ I"/fonts/fontello.eot/;T{;{ ;{ I"/fonts/fontello.ttf/;T{;{ ;{ I"/fonts/fontello.woff/;T{;{ ;{ I"/humans.txt/;T{;{ ;{ I"/img/dark-bg.jpg/;T{;{ ;{ I"/img/map.png/;T{;{ ;{ I"'/img/speaker/kashi_and_vikram.jpg/;T{;{ ;{ I"*/img/speaker/sreedhar_and_garima.jpg/;T{;{ ;{ I"/img/tw-logo.png/;T{;{ ;{ I"/img/white-bg.png/;T{;{ ;{ I"/js/custom.modernizr.js/;T{;{ ;{ I"/js/skrollr.min.js/;T{;{ ;{ I"/js/ticker.js/;T{;{ ;{ I"/LICENSE.md/;T{;{ ;{ I"/README.md/;T{;{ ;{ I"/robots.txt/;T{;{ ;{ I"/img/logo.png/;T{;{ ;{ I"/img/dark-bg_old.jpg/;T{;{ ;{ I"/img/IMG_0041.JPG/;T{;{ ;{ I"/img/IMG_2451.jpg/;T{;{ ;{ I"/img/IMG_5135.JPG/;T{;{ ;{ I"/img/IMG_5138.JPG/;T{;{ ;{ I"/img/IMG_5283.JPG/;T{;{ ;{ :versioni
+@È;{ I"/fonts/fontello.eot/;T{;{ ;{ I"/fonts/fontello.ttf/;T{;{ ;{ I"/fonts/fontello.woff/;T{;{ ;{ I"/humans.txt/;T{;{ ;{ I"/img/dark-bg.jpg/;T{;{ ;{ I"/img/map.png/;T{;{ ;{ I"'/img/speaker/kashi_and_vikram.jpg/;T{;{ ;{ I"*/img/speaker/sreedhar_and_garima.jpg/;T{;{ ;{ I"/img/tw-logo.png/;T{;{ ;{ I"/img/white-bg.png/;T{;{ ;{ I"/js/custom.modernizr.js/;T{;{ ;{ I"/js/skrollr.min.js/;T{;{ ;{ I"/js/ticker.js/;T{;{ ;{ I"/LICENSE.md/;T{;{ ;{ I"/README.md/;T{;{ ;{ I"/robots.txt/;T{;{ ;{ I"/img/logo.png/;T{;{ ;{ I"/img/dark-bg_old.jpg/;T{;{ ;{ I"/img/IMG_0041.JPG/;T{;{ ;{ I"/img/IMG_2451.jpg/;T{;{ ;{ I"/img/IMG_5135.JPG/;T{;{ ;{ I"/img/IMG_5138.JPG/;T{;{ ;{ I"/img/IMG_5283.JPG/;T{;{ ;{ I"/img/past/IMG_0041.JPG/;T{;{ ;{ I"/img/past/IMG_2451.jpg/;T{;{ ;{ I"/img/past/IMG_5135.JPG/;T{;{ ;{ I"/img/past/IMG_5138.JPG/;T{;{ ;{ I"/img/past/IMG_5283.JPG/;T{;{ ;{ I"/img/present/IMG_0041.JPG/;T{;{ ;{ I"/img/present/IMG_2451.jpg/;T{;{ ;{ I"/img/present/IMG_5135.JPG/;T{;{ ;{ I"/img/present/IMG_5138.JPG/;T{;{ ;{ I"/img/present/IMG_5283.JPG/;T{;{ ;{ I"&/img/past/ADA CAD CAM CENTRE.jpg/;T{;{ ;{ I"//img/past/AJAX FIORI CORPORATE OFFICE.jpg/;T{;{ ;{ I"5/img/past/AJAX FIORI EXPOSED CONCRETE WORK .jpg/;T{;{ ;{ I"%/img/past/ANNEXE TO ISRO HQ.jpg/;T{;{ ;{ I"6/img/past/ANTRIX CORPORATION BUILNG FOR ISRO.JPG/;T{;{ ;{ I"'/img/past/BANGALORE GOLF CLUB.jpg/;T{;{ ;{ I"0/img/past/COCHIN INTERNATIONAL AIRPORT.jpg/;T{;{ ;{ I"%/img/past/COLLEGE FOR STEM .JPG/;T{;{ ;{ I"5/img/past/CONCRETE ROAD AT MANDUR  FOR BBMP.JPG/;T{;{ ;{ I"9/img/past/ENGINE TEST BEDS AT MITSUBISHI MYSORE.jpg/;T{;{ ;{ I"5/img/past/MANUFACTURING UNIT FOR AJAX FIORI.jpg/;T{;{ ;{ I"4/img/past/MITSUBISHI DIESEL ENGINES INSIDE.JPG/;T{;{ ;{ I"6/img/past/MITSUBISHI DIESEL ENGNES AT MYSORE.JPG/;T{;{ ;{ I"0/img/past/MULTI UTILITY CENTRE FOR ADA.jpg/;T{;{ ;{ I"C/img/past/ORNAMENTAL COMPOUND WALL AT BANNIMANTAP  MYSORE.JPG/;T{;{ ;{ I"./img/past/RAJATHA BHAVAN FOR BWSSB  .jpg/;T{;{ ;{ I"*/img/past/RESIDENTIAL APPARTMENT.JPG/;T{;{ ;{ I"1/img/past/RESIDENTIAL SCHOOL AT WAYANAD.JPG/;T{;{ ;{ I"5/img/past/RIVER INTAKE JACK WELL AT COCHIN .jpg/;T{;{ ;{ I"./img/past/Road at Mitsubishi Factory.jpg/;T{;{ ;{ I"&/img/past/ROAD WORK AT KOLAR.jpg/;T{;{ ;{ I"4/img/past/SERVICE CENTRE FOR INDIA GARAGE.jpeg/;T{;{ ;{ I"+/img/past/SEZ BHAVAN AT BANGALORE.JPG/;T{;{ ;{ I":/img/past/SWIMMING POOL COMPLES AT KC PALCE CLUB.jpg/;T{;{ ;{ I"@/img/past/WATER TANK  & W:S SYSTEM AT PILANI RAJASTHAN.JPG/;T{;{ ;{ I"K/img/past/WATER TANK &W:S SYSTEM  AT COCHIN INTERNATIONAL AIRPORT.jpg/;T{;{ ;{ I"=/img/past/WATER TANK AND W:S LINES AT KINFRA KANNUR.JPG/;T{;{ ;{ I"4/img/past/WATER TREATMENT PLANT AT PILANI .JPG/;T{;{ ;{ I"0/img/present/APPARTMENT AT BOMMASANDRA.jpg/;T{;{ ;{ I"O/img/present/CIVIL WORKS AT CENTRE FOR NEUROSCIENCE AT IISC BANGALORE.jpg/;T{;{ ;{ I"7/img/present/HANGING STRUCTURE AT SANJAYNAGAR.jpg/;T{;{ ;{ I"7/img/present/HYDRAULICS LAB AT IISC BANGALORE.jpg/;T{;{ ;{ I"%/img/present/INDOOR STADIUM.jpg/;T{;{ ;{ :versioni

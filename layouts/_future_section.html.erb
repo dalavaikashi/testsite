@@ -26,4 +26,17 @@
             </blockquote>
         </div>
     </div>
+
+
+  <% Dir.glob("./img/past/**/*").in_groups_of(2) do |group| %>
+      <h5><% Dir.glob("./img/past/**/*").count %></h5>
+      <div class="row">
+        <% group.compact.each do |photo| %>
+            <div class="large-6 columns"> <% image_tag "./img/#{photo}"  %>
+              <h4><% photo %></h4>
+            </div>
+        <% end %>
+      </div>
+  <% end %>
+
 </section>
