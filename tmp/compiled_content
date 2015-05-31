@@ -1,4 +1,4 @@
-{:	data{yI"/2015-04/:ET{:default{	:	lastI"o*<!DOCTYPE html>
+{:	data{yI"/2015-04/:ET{:default{	:	lastI"_)<!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -181,17 +181,10 @@
         </ul>
         <ul class="right">
 
-          <li><a href="#about">About</a></li>
           <li><a href="#past">Past</a></li>
           <li><a href="#present">Present</a></li>
-          <li><a href="#future">Future</a></li>
           <li><a href="#location">Location</a></li>
-          <li>
-            <a href="" target="_blank" rel="nofollow"
-               onclick="ga('send', 'event', 'talk', 'talk')">
-              Contact Us
-            </a>
-          </li>
+          
         </ul>
       </section>
     </nav>
