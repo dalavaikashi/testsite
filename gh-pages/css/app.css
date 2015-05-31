@@ -160,7 +160,7 @@ q {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-small, #archive .grid a .year {
+small {
   font-size: 80%; }
 
 /**
@@ -457,11 +457,9 @@ li,
 h1,
 h2,
 h3,
-#archive .grid a .day,
 h4,
 h5,
 h6,
-#archive .grid a .month,
 pre,
 form,
 p,
@@ -496,7 +494,7 @@ p {
     font-style: italic; }
 
 /* Default header styles */
-h1, h2, h3, #archive .grid a .day, h4, h5, h6, #archive .grid a .month {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Segoe UI Light", Helvetica, "Segoe UI", Arial, sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -505,7 +503,7 @@ h1, h2, h3, #archive .grid a .day, h4, h5, h6, #archive .grid a .month {
   margin-top: 0;
   margin-bottom: 0.1em;
   line-height: 1.2125em; }
-  h1 small, h1 #archive .grid a .year, #archive .grid a h1 .year, h2 small, h2 #archive .grid a .year, #archive .grid a h2 .year, h3 small, #archive .grid a .day small, h3 #archive .grid a .year, #archive .grid a h3 .year, #archive .grid a .day .year, h4 small, h4 #archive .grid a .year, #archive .grid a h4 .year, h5 small, h5 #archive .grid a .year, #archive .grid a h5 .year, h6 small, #archive .grid a .month small, h6 #archive .grid a .year, #archive .grid a h6 .year, #archive .grid a .month .year {
+  h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     font-size: 60%;
     color: #6f6f6f;
     line-height: 0; }
@@ -516,7 +514,7 @@ h1 {
 h2 {
   font-size: 1.6875em; }
 
-h3, #archive .grid a .day {
+h3 {
   font-size: 1.375em; }
 
 h4 {
@@ -525,7 +523,7 @@ h4 {
 h5 {
   font-size: 1.125em; }
 
-h6, #archive .grid a .month {
+h6 {
   font-size: 1em; }
 
 hr {
@@ -546,7 +544,7 @@ b {
   font-weight: bold;
   line-height: inherit; }
 
-small, #archive .grid a .year {
+small {
   font-size: 60%;
   line-height: inherit; }
 
@@ -656,7 +654,7 @@ blockquote p {
   padding: 0 0.0625em; }
 
 @media only screen and (min-width: 768px) {
-  h1, h2, h3, #archive .grid a .day, h4, h5, h6, #archive .grid a .month {
+  h1, h2, h3, h4, h5, h6 {
     line-height: 1.4; }
 
   h1 {
@@ -665,7 +663,7 @@ blockquote p {
   h2 {
     font-size: 2.3125em; }
 
-  h3, #archive .grid a .day {
+  h3 {
     font-size: 1.6875em; }
 
   h4 {
@@ -723,14 +721,12 @@ blockquote p {
 
   p,
   h2,
-  h3,
-  #archive .grid a .day {
+  h3 {
     orphans: 3;
     widows: 3; }
 
   h2,
-  h3,
-  #archive .grid a .day {
+  h3 {
     page-break-after: avoid; }
 
   .hide-on-print {
@@ -3642,7 +3638,7 @@ button, .button {
   color: #222222;
   background: white url(../img/white-bg.png);
   border-radius: 0; }
-  #intro h1, #intro h2, #intro h3, #intro #archive .grid a .day, #archive .grid a #intro .day, #intro h4, #intro h5, #intro h6, #intro #archive .grid a .month, #archive .grid a #intro .month, #intro .subheader, #intro p, #intro blockquote, #intro small, #intro #archive .grid a .year, #archive .grid a #intro .year {
+  #intro h1, #intro h2, #intro h3, #intro h4, #intro h5, #intro h6, #intro .subheader, #intro p, #intro blockquote, #intro small {
     color: #222222; }
   #intro a {
     color: #00aeef; }
@@ -3676,7 +3672,7 @@ button, .button {
     -ms-animation: bounceInRight 1s 0s ease both;
     -o-animation: bounceInRight 1s 0s ease both;
     animation: bounceInRight 1s 0s ease both; }
-  #intro .logo h6, #intro .logo #archive .grid a .month, #archive .grid a #intro .logo .month {
+  #intro .logo h6 {
     -webkit-animation: flipInX 1s 0.5s ease both;
     -moz-animation: flipInX 1s 0.5s ease both;
     -ms-animation: flipInX 1s 0.5s ease both;
@@ -3741,7 +3737,7 @@ button, .button {
   color: white;
   background: #222222 url(../img/white-bg.png);
   background-image: url(../img/dark-bg.jpg); }
-  #location h1, #location h2, #location h3, #location #archive .grid a .day, #archive .grid a #location .day, #location h4, #location h5, #location h6, #location #archive .grid a .month, #archive .grid a #location .month, #location .subheader, #location p, #location blockquote, #location small, #location #archive .grid a .year, #archive .grid a #location .year {
+  #location h1, #location h2, #location h3, #location h4, #location h5, #location h6, #location .subheader, #location p, #location blockquote, #location small {
     color: white; }
   #location a {
     color: white; }
@@ -3766,7 +3762,7 @@ button, .button {
   color: white;
   background: #222222 url(../img/white-bg.png);
   background-image: url(../img/dark-bg.jpg); }
-  #past h1, #past h2, #past h3, #past #archive .grid a .day, #archive .grid a #past .day, #past h4, #past h5, #past h6, #past #archive .grid a .month, #archive .grid a #past .month, #past .subheader, #past p, #past blockquote, #past small, #past #archive .grid a .year, #archive .grid a #past .year {
+  #past h1, #past h2, #past h3, #past h4, #past h5, #past h6, #past .subheader, #past p, #past blockquote, #past small {
     color: white; }
   #past a {
     color: white; }
@@ -3785,14 +3781,14 @@ button, .button {
     #past .address p {
       text-align: right; }
     #past img {
-      border-radius: 0 0.5em 0.5em 0; } }
+      border-radius: 0.5em 0.5em 0.5em 0.5em; } }
 
 #present {
   color: #222222;
   background: white url(../img/white-bg.png);
   border-radius: 0;
   background-image: url(../img/white-bg.png); }
-  #present h1, #present h2, #present h3, #present #archive .grid a .day, #archive .grid a #present .day, #present h4, #present h5, #present h6, #present #archive .grid a .month, #archive .grid a #present .month, #present .subheader, #present p, #present blockquote, #present small, #present #archive .grid a .year, #archive .grid a #present .year {
+  #present h1, #present h2, #present h3, #present h4, #present h5, #present h6, #present .subheader, #present p, #present blockquote, #present small {
     color: #222222; }
   #present a {
     color: #00aeef; }
@@ -3808,16 +3804,14 @@ button, .button {
   #present .address a {
     color: #00aeef; }
   @media only screen and (min-width: 768px) {
-    #present .address p {
-      text-align: right; }
     #present img {
-      border-radius: 0 0.5em 0.5em 0; } }
+      border-radius: 0.5em 0.5em 0.5em 0.5em; } }
 
 #about {
   color: white;
   background: #222222 url(../img/white-bg.png);
   background-image: url(../img/dark-bg.jpg); }
-  #about h1, #about h2, #about h3, #about #archive .grid a .day, #archive .grid a #about .day, #about h4, #about h5, #about h6, #about #archive .grid a .month, #archive .grid a #about .month, #about .subheader, #about p, #about blockquote, #about small, #about #archive .grid a .year, #archive .grid a #about .year {
+  #about h1, #about h2, #about h3, #about h4, #about h5, #about h6, #about .subheader, #about p, #about blockquote, #about small {
     color: white; }
   #about a {
     color: #00aeef; }
@@ -3870,69 +3864,11 @@ button, .button {
       text-align: left;
       font-size: 1em;
       margin-bottom: 1em; }
-    #about blockquote small, #about blockquote #archive .grid a .year, #archive .grid a #about blockquote .year {
+    #about blockquote small {
       font-size: 0.8125em; }
     #about blockquote cite {
       margin: 0.25em 0;
       text-align: right; }
-
-#archive {
-  color: #222222;
-  background: white url(../img/white-bg.png); }
-  #archive h1, #archive h2, #archive h3, #archive .grid a .day, #archive h4, #archive h5, #archive h6, #archive .grid a .month, #archive .subheader, #archive p, #archive blockquote, #archive small, #archive .grid a .year {
-    color: #222222; }
-  #archive a {
-    color: #00aeef; }
-    #archive a:hover, #archive a:active {
-      color: #4cc6f3; }
-  #archive code, #archive abbr, #archive acronym {
-    color: black; }
-  #archive .grid {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    *zoom: 1; }
-    #archive .grid:before, #archive .grid:after {
-      content: " ";
-      display: table; }
-    #archive .grid:after {
-      clear: both; }
-    #archive .grid li {
-      display: inline-block;
-      width: 5em; }
-  #archive .grid a {
-    display: block;
-    overflow: hidden;
-    padding: 0.25em;
-    background-color: #b3b3b3;
-    border-radius: 0.5em;
-    -webkit-transition: background-color 0.3s;
-    -moz-transition: background-color 0.3s;
-    -ms-transition: background-color 0.3s;
-    -o-transition: background-color 0.3s;
-    transition: background-color 0.3s; }
-    #archive .grid a:hover, #archive .grid a.active {
-      background-color: #00aeef; }
-    #archive .grid a .month {
-      color: white;
-      line-height: 1.5em;
-      margin: 0; }
-      #archive .grid a .month:before, #archive .grid a .month:after {
-        content: "\2022";
-        display: inline-block; }
-      #archive .grid a .month:before {
-        float: left; }
-      #archive .grid a .month:after {
-        float: right; }
-    #archive .grid a .day {
-      background-color: white;
-      margin: 0;
-      line-height: 1.25em; }
-    #archive .grid a .year {
-      background-color: white;
-      border-top: 1px dashed #b3b3b3;
-      line-height: 2em;
-      border-radius: 0 0 0.25em 0.25em; }
 
 #footer {
   color: #a6a6a6;
@@ -3940,7 +3876,7 @@ button, .button {
   border-radius: 0;
   margin-top: 0;
   padding: 0.5em 0; }
-  #footer h1, #footer h2, #footer h3, #footer #archive .grid a .day, #archive .grid a #footer .day, #footer h4, #footer h5, #footer h6, #footer #archive .grid a .month, #archive .grid a #footer .month, #footer .subheader, #footer p, #footer blockquote, #footer small, #footer #archive .grid a .year, #archive .grid a #footer .year {
+  #footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer .subheader, #footer p, #footer blockquote, #footer small {
     color: #a6a6a6; }
   #footer a {
     color: #3dcaff; }

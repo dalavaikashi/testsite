@@ -192,7 +192,7 @@
     .address p
       text-align: right
     img
-      border-radius: 0 .5em .5em 0
+      border-radius: .5em .5em .5em .5em
 
 
 #present
@@ -214,10 +214,8 @@
       color: $blue
 
   @media #{$small}
-    .address p
-      text-align: right
     img
-      border-radius: 0 .5em .5em 0
+      border-radius: .5em .5em .5em .5em
 
 
 //
@@ -281,63 +279,6 @@
       margin: .25em 0
       text-align: right
 
-//
-// ARCHIVE AREA
-//
-#archive
-  $main-fg: $dark
-  $main-bg: $white
-  $alt-fg: $blue
-  +override-colors($main-fg,$main-bg,$alt-fg)
-
-  .grid
-    list-style-type: none
-    margin: 0
-    padding: 0
-    @include clearfix
-
-    li
-      display: inline-block
-      width: 5em
-
-  .grid a
-    display: block
-    overflow: hidden
-    padding: .25em
-    background-color: darken($main-bg, 30%)
-    border-radius: .5em
-    +experimental(transition, background-color .3s)
-
-    &:hover, &.active
-      background-color: $alt-fg
-
-    .month
-      @extend h6
-      color: $main-bg
-      line-height: 1.5em
-      margin: 0
-
-      &:before,
-      &:after
-        content: '\2022'
-        display: inline-block
-      &:before
-        float: left
-      &:after
-        float: right
-
-    .day
-      @extend h3
-      background-color: $main-bg
-      margin: 0
-      line-height: 1.25em
-
-    .year
-      @extend small
-      background-color: $main-bg
-      border-top: 1px dashed darken($main-bg, 30%)
-      line-height: 2em
-      border-radius: 0 0 .25em .25em
 
 //
 // FOOTER
