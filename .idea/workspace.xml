@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9431e2f-3da4-4b05-a74b-4cd1dffe8c24" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/past/AJAX FIORI EXPOSED CONCRETE WORK .jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/past/COLLEGE FOR STEM .JPG" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/_past_section.html.erb" afterPath="$PROJECT_DIR$/layouts/_past_section.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/_present_section.html.erb" afterPath="$PROJECT_DIR$/layouts/_present_section.html.erb" />
     </list>
     <ignored path="testsite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,8 +47,8 @@
       <file leaf-file-name="_past_section.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/layouts/_past_section.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6357616">
-              <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+            <state vertical-scroll-proportion="0.3178808">
+              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -826,8 +823,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/layouts/_past_section.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6357616">
-          <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+        <state vertical-scroll-proportion="0.3178808">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
           <folding />
         </state>
       </provider>
