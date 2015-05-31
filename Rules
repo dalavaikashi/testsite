@@ -25,7 +25,7 @@ compile '*' do
     # don’t filter binary items
   else
     filter :erb
-    layout start_date.future? ? 'default' : 'archive'
+    layout 'default'
   end
 end
 
@@ -59,6 +59,10 @@ end
 
 route '/', rep: :index do
   '/index.html'
+end
+
+route '/past', rep: :index do
+  '/past.html'
 end
 
 layout '*', :erb

@@ -2,30 +2,18 @@
     <section id="intro" class="feature">
         <div class="row logo">
             <div class="large-12 columns">
-                <a href="http://www.Dalavai.com" target="_blank"
+                <a href="http://www.dalavai.in" target="_blank"
                    onclick="ga('send', 'event', 'tw', 'tw')">
-                    <img src="./img/tw-logo.png" alt="Dalavai" align="center" />
+                    <img src="./img/logo.png" alt="Dalavai" align="center" />
                 </a>
-                <h1>Geek Night Hyderabad</h1>
-                <h5>Flashback</h5>
-            </div>
-        </div>
-
-        <div class="row countdown">
-            <div class="small-8 small-offset-2 large-8 large-offset-2 columns date">
-                <p><%= @item[:edition] %><sup><%= @item[:edition].ordinal %></sup> edition</p>
-                <h4><%= start_date.strftime("%b %-d %Y") %></h4>
+                <h1>Dalavai</h1>
+                <h5>Infrastructure</h5>
             </div>
         </div>
     </section>
 
-    <%= render '_agenda_section' %>
-
     <%= render '_about_section' %>
-
-    <%= render '_archive_section' %>
 
     <%= render '_header_section' %>
 
-    <%= render '_footer_section' %>
 <% end %>

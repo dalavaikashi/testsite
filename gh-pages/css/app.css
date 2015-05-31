@@ -3699,194 +3699,43 @@ button, .button {
     -ms-animation: flipInX 1s 0.5s ease both;
     -o-animation: flipInX 1s 0.5s ease both;
     animation: flipInX 1s 0.5s ease both; }
-  #intro .countdown h4 {
-    color: #00aeef; }
-  #intro .countdown .date p {
-    -webkit-animation: fadeInDown 1s 1s ease both;
-    -moz-animation: fadeInDown 1s 1s ease both;
-    -ms-animation: fadeInDown 1s 1s ease both;
-    -o-animation: fadeInDown 1s 1s ease both;
-    animation: fadeInDown 1s 1s ease both; }
-  #intro .countdown .date h4 {
-    -webkit-animation: fadeInUp 1s 1s ease both;
-    -moz-animation: fadeInUp 1s 1s ease both;
-    -ms-animation: fadeInUp 1s 1s ease both;
-    -o-animation: fadeInUp 1s 1s ease both;
-    animation: fadeInUp 1s 1s ease both;
-    border-top: 1px dashed #222222; }
-  #intro .countdown .counter p {
-    -webkit-animation: fadeInUp 1s 1s ease both;
-    -moz-animation: fadeInUp 1s 1s ease both;
-    -ms-animation: fadeInUp 1s 1s ease both;
-    -o-animation: fadeInUp 1s 1s ease both;
-    animation: fadeInUp 1s 1s ease both; }
-  #intro .countdown .counter h4 {
-    -webkit-animation: fadeInDown 1s 1s ease both;
-    -moz-animation: fadeInDown 1s 1s ease both;
-    -ms-animation: fadeInDown 1s 1s ease both;
-    -o-animation: fadeInDown 1s 1s ease both;
-    animation: fadeInDown 1s 1s ease both;
-    border-bottom: 1px dashed #222222; }
-    #intro .countdown .counter h4#seconds {
-      overflow: hidden;
-      position: relative; }
-      #intro .countdown .counter h4#seconds span {
-        display: block;
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        -webkit-transition: top 300ms ease-out;
-        -moz-transition: top 300ms ease-out;
-        transition: top 300ms ease-out; }
-      #intro .countdown .counter h4#seconds.tick #tick {
-        visibility: visible;
-        top: 0; }
-      #intro .countdown .counter h4#seconds.tick #tock {
-        top: -100%; }
-      #intro .countdown .counter h4#seconds.tick #tack {
-        visibility: hidden;
-        top: 100%; }
-      #intro .countdown .counter h4#seconds.tock #tock {
-        visibility: visible;
-        top: 0; }
-      #intro .countdown .counter h4#seconds.tock #tack {
-        top: -100%; }
-      #intro .countdown .counter h4#seconds.tock #tick {
-        visibility: hidden;
-        top: 100%; }
-      #intro .countdown .counter h4#seconds.tack #tack {
-        visibility: visible;
-        top: 0; }
-      #intro .countdown .counter h4#seconds.tack #tick {
-        top: -100%; }
-      #intro .countdown .counter h4#seconds.tack #tock {
-        visibility: hidden;
-        top: 100%; }
-  #intro .actions {
-    padding-top: 1em; }
-    #intro .actions .participate {
-      -webkit-animation: rotateInUpLeft 1s 1.5s ease both;
-      -moz-animation: rotateInUpLeft 1s 1.5s ease both;
-      -ms-animation: rotateInUpLeft 1s 1.5s ease both;
-      -o-animation: rotateInUpLeft 1s 1.5s ease both;
-      animation: rotateInUpLeft 1s 1.5s ease both; }
-    #intro .actions .talk {
-      -webkit-animation: rotateInUpRight 1s 1.5s ease both;
-      -moz-animation: rotateInUpRight 1s 1.5s ease both;
-      -ms-animation: rotateInUpRight 1s 1.5s ease both;
-      -o-animation: rotateInUpRight 1s 1.5s ease both;
-      animation: rotateInUpRight 1s 1.5s ease both; }
-    #intro .actions .participate-or-talk {
-      -webkit-animation: fadeInUp 1s 2s ease both;
-      -moz-animation: fadeInUp 1s 2s ease both;
-      -ms-animation: fadeInUp 1s 2s ease both;
-      -o-animation: fadeInUp 1s 2s ease both;
-      animation: fadeInUp 1s 2s ease both; }
-    #intro .actions a {
-      display: block; }
-      #intro .actions a:hover {
-        -webkit-animation: tada 1s 0s ease both;
-        -moz-animation: tada 1s 0s ease both;
-        -ms-animation: tada 1s 0s ease both;
-        -o-animation: tada 1s 0s ease both;
-        animation: tada 1s 0s ease both; }
-      #intro .actions a h4 {
-        -webkit-transition: background-color 300ms ease-out;
-        -moz-transition: background-color 300ms ease-out;
-        transition: background-color 300ms ease-out;
-        background-color: #00aeef;
-        border-color: #0089bc;
-        color: white;
-        -webkit-border-radius: 3px;
-        border-radius: 3px;
-        color: white;
-        padding: 0.25em;
-        margin-bottom: 0.25em; }
-        #intro .actions a h4:hover, #intro .actions a h4:focus {
-          background-color: #0089bc; }
-        #intro .actions a h4:hover, #intro .actions a h4:focus {
-          color: white; }
-      @media only screen and (max-width: 768px) {
-        #intro .actions a {
-          padding: 0.5em; } }
-    #intro .actions h6.delimiter, #intro .actions #archive .grid a .delimiter.month, #archive .grid a #intro .actions .delimiter.month {
-      color: #a2a2a2;
-      line-height: 2.5; }
-
-#agenda {
-  color: #222222;
-  background: #00aeef url(../img/white-bg.png); }
-  #agenda h1, #agenda h2, #agenda h3, #agenda #archive .grid a .day, #archive .grid a #agenda .day, #agenda h4, #agenda h5, #agenda h6, #agenda #archive .grid a .month, #archive .grid a #agenda .month, #agenda .subheader, #agenda p, #agenda blockquote, #agenda small, #agenda #archive .grid a .year, #archive .grid a #agenda .year {
-    color: #222222; }
-  #agenda a {
-    color: white; }
-    #agenda a:hover, #agenda a:active {
-      color: #b2e6fa; }
-  #agenda code, #agenda abbr, #agenda acronym {
-    color: black; }
-  #agenda .timings .row {
-    border-bottom: 1px dashed #89dfff;
-    margin-bottom: 0;
-    padding: 0.5em 0;
-    overflow: hidden;
-    -webkit-transition: background-color 300ms ease-out;
-    -moz-transition: background-color 300ms ease-out;
-    transition: background-color 300ms ease-out; }
-    #agenda .timings .row:last-child {
-      border-bottom: 0; }
-    #agenda .timings .row .time,
-    #agenda .timings .row .summary {
-      -webkit-transform-origin: 50% 50%;
-      -moz-transform-origin: 50% 50%;
-      -ms-transform-origin: 50% 50%;
-      -o-transform-origin: 50% 50%;
-      transform-origin: 50% 50%; }
-    #agenda .timings .row .summary {
-      position: relative; }
-      #agenda .timings .row .summary p {
-        margin-bottom: 0; }
-      #agenda .timings .row .summary small, #agenda .timings .row .summary #archive .grid a .year, #archive .grid a #agenda .timings .row .summary .year {
-        line-height: 1rem;
-        display: inline-block; }
-      #agenda .timings .row .summary img {
-        display: block;
-        margin: 0.5em auto;
-        max-width: 3em;
-        border-radius: 50%; }
-      #agenda .timings .row .summary a {
-        white-space: nowrap; }
-    @media only screen and (min-width: 768px) {
-      #agenda .timings .row p {
-        margin-bottom: 0; }
-      #agenda .timings .row .time {
-        -webkit-transform-origin: 100% 50%;
-        -moz-transform-origin: 100% 50%;
-        -ms-transform-origin: 100% 50%;
-        -o-transform-origin: 100% 50%;
-        transform-origin: 100% 50%;
-        text-align: right; }
-        #agenda .timings .row .time p:after {
-          display: block;
-          content: "\00A7";
-          position: absolute;
-          top: 0;
-          right: -0.25em; }
-      #agenda .timings .row .summary {
-        -webkit-transform-origin: 0% 50%;
-        -moz-transform-origin: 0% 50%;
-        -ms-transform-origin: 0% 50%;
-        -o-transform-origin: 0% 50%;
-        transform-origin: 0% 50%;
-        text-align: left; }
-        #agenda .timings .row .summary p {
-          padding-right: 3.15em; }
-        #agenda .timings .row .summary img {
-          position: absolute;
-          right: 1em;
-          top: 50%;
-          margin-top: -1.5em; } }
-    #agenda .timings .row:hover {
-      background-color: #23c3ff; }
+  #intro .social a {
+    font-size: 1.5em;
+    display: inline-block;
+    color: white;
+    background-color: #222222;
+    border-radius: 50%;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    margin: 0 0.1em;
+    position: relative;
+    -webkit-transition: color 0.3s, background-color 0.3s;
+    -moz-transition: color 0.3s, background-color 0.3s;
+    -ms-transition: color 0.3s, background-color 0.3s;
+    -o-transition: color 0.3s, background-color 0.3s;
+    transition: color 0.3s, background-color 0.3s; }
+    #intro .social a i {
+      display: inline-block; }
+    #intro .social a:before {
+      display: block;
+      position: absolute;
+      content: "";
+      width: 2px;
+      margin-left: -1px;
+      height: 2.5em;
+      background-color: #222222;
+      top: -2.5em;
+      left: 50%; }
+    #intro .social a:hover, #intro .social a:focus {
+      color: #222222;
+      background-color: #00aeef; }
+      #intro .social a:hover i, #intro .social a:focus i {
+        -webkit-animation: flip 1s 0s ease both;
+        -moz-animation: flip 1s 0s ease both;
+        -ms-animation: flip 1s 0s ease both;
+        -o-animation: flip 1s 0s ease both;
+        animation: flip 1s 0s ease both; }
 
 #location {
   color: white;
@@ -3911,6 +3760,57 @@ button, .button {
     #location .address p {
       text-align: right; }
     #location img {
+      border-radius: 0 0.5em 0.5em 0; } }
+
+#past {
+  color: white;
+  background: #222222 url(../img/white-bg.png);
+  background-image: url(../img/dark-bg.jpg); }
+  #past h1, #past h2, #past h3, #past #archive .grid a .day, #archive .grid a #past .day, #past h4, #past h5, #past h6, #past #archive .grid a .month, #archive .grid a #past .month, #past .subheader, #past p, #past blockquote, #past small, #past #archive .grid a .year, #archive .grid a #past .year {
+    color: white; }
+  #past a {
+    color: white; }
+    #past a:hover, #past a:active {
+      color: #bcbcbc; }
+  #past code, #past abbr, #past acronym {
+    color: #d9d9d9; }
+  #past .row {
+    overflow: hidden; }
+  #past .address span {
+    display: block;
+    padding-bottom: 0.5em; }
+  #past .address a {
+    color: #00aeef; }
+  @media only screen and (min-width: 768px) {
+    #past .address p {
+      text-align: right; }
+    #past img {
+      border-radius: 0 0.5em 0.5em 0; } }
+
+#present {
+  color: #222222;
+  background: white url(../img/white-bg.png);
+  border-radius: 0;
+  background-image: url(../img/white-bg.png); }
+  #present h1, #present h2, #present h3, #present #archive .grid a .day, #archive .grid a #present .day, #present h4, #present h5, #present h6, #present #archive .grid a .month, #archive .grid a #present .month, #present .subheader, #present p, #present blockquote, #present small, #present #archive .grid a .year, #archive .grid a #present .year {
+    color: #222222; }
+  #present a {
+    color: #00aeef; }
+    #present a:hover, #present a:active {
+      color: #4cc6f3; }
+  #present code, #present abbr, #present acronym {
+    color: black; }
+  #present .row {
+    overflow: hidden; }
+  #present .address span {
+    display: block;
+    padding-bottom: 0.5em; }
+  #present .address a {
+    color: #00aeef; }
+  @media only screen and (min-width: 768px) {
+    #present .address p {
+      text-align: right; }
+    #present img {
       border-radius: 0 0.5em 0.5em 0; } }
 
 #about {
