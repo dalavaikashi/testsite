@@ -1,8 +1,8 @@
-Crashlog created at 2015-05-31 11:22:41 +0530
+Crashlog created at 2015-06-02 11:29:24 +0530
 
 ===== MESSAGE:
 
-Nanoc::Errors::UnknownLayout: The site does not have a layout with identifier “/_location_section/”.
+NoMethodError: undefined method `image_tag' for #<Nanoc::Context:0x007f947c0217d8>
 
 ===== COMPILATION STACK:
 
@@ -10,52 +10,62 @@ Nanoc::Errors::UnknownLayout: The site does not have a layout with identifier �
 
 ===== STACK TRACE:
 
-  0. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/helpers/rendering.rb:83:in `render'
-  1. layout /default/:14:in `block in get_binding'
-  2. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/helpers/capturing.rb:157:in `call'
-  3. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/helpers/capturing.rb:157:in `capture'
-  4. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/helpers/rendering.rb:90:in `render'
-  5. layout /default/:1:in `get_binding'
+  0. layout /_past_section/:10:in `block (2 levels) in get_binding'
+  1. layout /_past_section/:9:in `each'
+  2. layout /_past_section/:9:in `block in get_binding'
+  3. layout /_past_section/:7:in `each'
+  4. layout /_past_section/:7:in `each_slice'
+  5. layout /_past_section/:7:in `get_binding'
   6. /Users/kreddy/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/erb.rb:863:in `eval'
   7. /Users/kreddy/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/erb.rb:863:in `result'
   8. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/filters/erb.rb:34:in `run'
   9. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/base/compilation/filter.rb:122:in `setup_and_run'
-  10. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/base/result_data/item_rep.rb:409:in `layout'
-  11. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/base/compilation/item_rep_proxy.rb:69:in `layout'
-  12. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/base/compilation/rule_context.rb:68:in `layout'
-  13. ./Rules:28:in `block in load'
-  14. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/base/compilation/rule.rb:68:in `instance_eval'
-  15. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/base/compilation/rule.rb:68:in `apply_to'
-  16. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/base/compilation/compiler.rb:384:in `compile_rep'
-  17. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/base/compilation/compiler.rb:340:in `block in compile_reps'
-  18. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/base/compilation/compiler.rb:333:in `loop'
-  19. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/base/compilation/compiler.rb:333:in `compile_reps'
-  20. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/base/compilation/compiler.rb:89:in `run'
-  21. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/base/source_data/site.rb:58:in `compile'
-  22. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/cli/commands/compile.rb:363:in `block in run'
-  23. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/cli/commands/compile.rb:404:in `run_listeners_while'
-  24. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/cli/commands/compile.rb:362:in `run'
-  25. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/cli/command_runner.rb:14:in `block in call'
-  26. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/cli/error_handler.rb:70:in `handle_while'
-  27. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
-  28. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/cli/command_runner.rb:13:in `call'
-  29. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/cri-2.4.0/lib/cri/command_dsl.rb:185:in `block in runner'
-  30. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/cri-2.4.0/lib/cri/command.rb:296:in `call'
-  31. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/cri-2.4.0/lib/cri/command.rb:296:in `run_this'
-  32. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/cri-2.4.0/lib/cri/command.rb:249:in `run'
-  33. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/cli/commands/nanoc.rb:39:in `block in define'
-  34. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/cri-2.4.0/lib/cri/command.rb:296:in `call'
-  35. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/cri-2.4.0/lib/cri/command.rb:296:in `run_this'
-  36. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/cri-2.4.0/lib/cri/command.rb:249:in `run'
-  37. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/cli.rb:52:in `block in run'
-  38. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/cli/error_handler.rb:70:in `handle_while'
-  39. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
-  40. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/cli.rb:50:in `run'
-  41. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/bin/nanoc:19:in `<top (required)>'
-  42. /Users/kreddy/.rvm/gems/ruby-2.2.1/bin/nanoc:23:in `load'
-  43. /Users/kreddy/.rvm/gems/ruby-2.2.1/bin/nanoc:23:in `<main>'
-  44. /Users/kreddy/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `eval'
-  ... 47 more lines omitted. See full crash log for details.
+  10. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/helpers/rendering.rb:120:in `render'
+  11. layout /default/:39:in `block in get_binding'
+  12. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/helpers/capturing.rb:157:in `call'
+  13. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/helpers/capturing.rb:157:in `capture'
+  14. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/helpers/rendering.rb:90:in `render'
+  15. layout /default/:1:in `get_binding'
+  16. /Users/kreddy/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/erb.rb:863:in `eval'
+  17. /Users/kreddy/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/erb.rb:863:in `result'
+  18. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/filters/erb.rb:34:in `run'
+  19. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/base/compilation/filter.rb:122:in `setup_and_run'
+  20. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/base/result_data/item_rep.rb:409:in `layout'
+  21. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/base/compilation/item_rep_proxy.rb:69:in `layout'
+  22. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/base/compilation/rule_context.rb:68:in `layout'
+  23. ./Rules:28:in `block in load'
+  24. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/base/compilation/rule.rb:68:in `instance_eval'
+  25. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/base/compilation/rule.rb:68:in `apply_to'
+  26. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/base/compilation/compiler.rb:384:in `compile_rep'
+  27. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/base/compilation/compiler.rb:340:in `block in compile_reps'
+  28. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/base/compilation/compiler.rb:333:in `loop'
+  29. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/base/compilation/compiler.rb:333:in `compile_reps'
+  30. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/base/compilation/compiler.rb:89:in `run'
+  31. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/base/source_data/site.rb:58:in `compile'
+  32. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/cli/commands/compile.rb:363:in `block in run'
+  33. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/cli/commands/compile.rb:404:in `run_listeners_while'
+  34. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/cli/commands/compile.rb:362:in `run'
+  35. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/cli/command_runner.rb:14:in `block in call'
+  36. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/cli/error_handler.rb:70:in `handle_while'
+  37. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
+  38. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/cli/command_runner.rb:13:in `call'
+  39. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/cri-2.4.0/lib/cri/command_dsl.rb:185:in `block in runner'
+  40. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/cri-2.4.0/lib/cri/command.rb:296:in `call'
+  41. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/cri-2.4.0/lib/cri/command.rb:296:in `run_this'
+  42. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/cri-2.4.0/lib/cri/command.rb:249:in `run'
+  43. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/cli/commands/nanoc.rb:39:in `block in define'
+  44. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/cri-2.4.0/lib/cri/command.rb:296:in `call'
+  45. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/cri-2.4.0/lib/cri/command.rb:296:in `run_this'
+  46. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/cri-2.4.0/lib/cri/command.rb:249:in `run'
+  47. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/cli.rb:52:in `block in run'
+  48. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/cli/error_handler.rb:70:in `handle_while'
+  49. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
+  50. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/lib/nanoc/cli.rb:50:in `run'
+  51. /Users/kreddy/.rvm/gems/ruby-2.2.1/gems/nanoc-3.6.5/bin/nanoc:19:in `<top (required)>'
+  52. /Users/kreddy/.rvm/gems/ruby-2.2.1/bin/nanoc:23:in `load'
+  53. /Users/kreddy/.rvm/gems/ruby-2.2.1/bin/nanoc:23:in `<main>'
+  54. /Users/kreddy/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `eval'
+  ... 57 more lines omitted. See full crash log for details.
 
 ===== VERSION INFORMATION:
 
@@ -117,7 +127,7 @@ LESS => "-R"
 LOGNAME => "kreddy"
 LSCOLORS => "Gxfxcxdxbxegedabagacad"
 MY_RUBY_HOME => "/Users/kreddy/.rvm/rubies/ruby-2.2.1"
-OLDPWD => "/Users/kreddy/work"
+OLDPWD => "/Users/kreddy"
 PAGER => "less"
 PATH => "/Users/kreddy/.rvm/gems/ruby-2.2.1/bin:/Users/kreddy/.rvm/gems/ruby-2.2.1@global/bin:/Users/kreddy/.rvm/rubies/ruby-2.2.1/bin:/Users/kreddy/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/kreddy/.rvm/bin"
 PWD => "/Users/kreddy/work/dalavaisite"
@@ -155,7 +165,6 @@ rvm_path => "/Users/kreddy/.rvm"
 rvm_prefix => "/Users/kreddy"
 rvm_proxy => ""
 rvm_quiet_flag => ""
-rvm_recommended_ruby => "rvm install ruby-2.0.0-p643"
 rvm_ruby_bits => ""
 rvm_ruby_file => ""
 rvm_ruby_make => ""

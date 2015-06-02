@@ -4,34 +4,48 @@
   </div>
 
 
+  <% Dir['./assets/img/past/**/*.jpg'].each_slice(2) do |group| %>
+      <div class="row">
+        <% group.each do |image| %>
+            <% i = image.sub('/assets', '') %>
+            <div class="large-6 columns">
+              <img src="<%=i%>"/>
+              <br>
+              <div><%= image.sub('./assets/img/past/', '').sub('.jpg', '').downcase %></div>
+            </div>
+        <% end %>
+      </div>
+  <% end %>
 
-  <div class="row">
-    <div class="large-6 columns">
-      <img src="./img/past/BANGALORE GOLF CLUB.jpg"/>
-      <div>Bangalore Golf Club</div>
-    </div>
-    <div class="large-6 columns">
-      <img src="./img/past/COLLEGE FOR STEM.JPG"/>
+  <!--<div class="row">-->
+    <!--<div class="large-6 columns">-->
+      <!--<img src="./img/past/BANGALORE GOLF CLUB.jpg"/>-->
 
-      <div>College for STEM - Jigani</div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="large-6 columns">
-      <img src="./img/past/AJAX FIORI EXPOSED CONCRETE WORK.jpg"/>
+      <!--<div>Bangalore Golf Club</div>-->
+    <!--</div>-->
+    <!--<div class="large-6 columns">-->
+      <!--<img src="./img/past/COLLEGE FOR STEM.JPG"/>-->
 
-      <div>AJAX Fiori exposed concrete</div>
-    </div>
-    <div class="large-6 columns">
-      <img src="./img/past/MANUFACTURING UNIT FOR AJAX FIORI.jpg"/>
+      <!--<div>College for STEM - Jigani</div>-->
+    <!--</div>-->
+  <!--</div>-->
+  <!--<div class="row">-->
+    <!--<div class="large-6 columns">-->
+      <!--<img src="./img/past/AJAX FIORI EXPOSED CONCRETE WORK.jpg"/>-->
 
-      <div>AJAX manufacturing unit</div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="large-6 columns">
-      <img src="./img/past/MITSUBISHI DIESEL ENGNES AT MYSORE.JPG"/>
-      <div>Mitsubishi diesel engines at mysore</div>
-    </div>
-  </div>
+      <!--<div>AJAX Fiori exposed concrete</div>-->
+    <!--</div>-->
+    <!--<div class="large-6 columns">-->
+      <!--<img src="./img/past/MANUFACTURING UNIT FOR AJAX FIORI.jpg"/>-->
+
+      <!--<div>AJAX manufacturing unit</div>-->
+    <!--</div>-->
+  <!--</div>-->
+  <!--<div class="row">-->
+    <!--<div class="large-6 columns">-->
+      <!--<img src="./img/past/MITSUBISHI DIESEL ENGNES AT MYSORE.JPG"/>-->
+
+      <!--<div>Mitsubishi diesel engines at mysore</div>-->
+    <!--</div>-->
+  <!--</div>-->
 </section>
