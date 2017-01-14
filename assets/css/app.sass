@@ -149,6 +149,29 @@
 // LOCATION SECTION
 //
 #location
+  $main-fg: $dark
+  $main-bg: $white
+  $alt-fg: $blue
+  +override-colors($main-fg,$main-bg,$alt-fg)
+  border-radius: 0
+  background-image: url(../img/white-bg.png)
+
+  .row
+    overflow: hidden
+
+  .address
+    span
+      display: block
+      padding-bottom: .5em
+    a
+      color: $blue
+
+  @media #{$small}
+    img
+      border-radius: .5em .5em .5em .5em
+
+
+#clientLogo
   $main-fg: $white
   $main-bg: $dark
   +override-colors($main-fg,$main-bg,$main-fg)
@@ -166,13 +189,11 @@
 
   @media #{$small}
     .address p
-      text-align: left
+      text-align: right
     img
-      border-radius: 0 .5em .5em 0
+      border-radius: .5em .5em .5em .5em
 
-
-
-#past
+#present
   $main-fg: $white
   $main-bg: $dark
   +override-colors($main-fg,$main-bg,$main-fg)
@@ -195,7 +216,7 @@
       border-radius: .5em .5em .5em .5em
 
 
-#present
+#past
   $main-fg: $dark
   $main-bg: $white
   $alt-fg: $blue

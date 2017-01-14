@@ -1,20 +1,16 @@
-<section id="past" class="feature">
+<section id="clientLogo" class="feature">
   <div class="row" data-bottom="transform:translateY(-10em)" data--100-bottom="transform:translateY(0em)">
-    <h2>Past Projects</h2>
+    <h2>Associated with</h2>
   </div>
 
-
-  <% Dir['./assets/img/past/**/*.jpg'].each_slice(2) do |group| %>
+  <% Dir['./assets/img/clientLogo/**/*.jpg'].each_slice(4) do |group| %>
       <div class="row">
         <% group.each do |image| %>
             <% i = image.sub('/assets', '') %>
-            <div class="large-6 columns">
+            <div class="large-3 columns">
               <img src="<%=i%>"/>
-              <br>
-              <div><%= image.sub('./assets/img/past/', '').sub('.jpg', '').downcase %></div>
             </div>
         <% end %>
       </div>
   <% end %>
-
 </section>

@@ -3734,17 +3734,18 @@ button, .button {
         animation: flip 1s 0s ease both; }
 
 #location {
-  color: white;
-  background: #222222 url(../img/white-bg.png);
-  background-image: url(../img/dark-bg.jpg); }
+  color: #222222;
+  background: white url(../img/white-bg.png);
+  border-radius: 0;
+  background-image: url(../img/white-bg.png); }
   #location h1, #location h2, #location h3, #location h4, #location h5, #location h6, #location .subheader, #location p, #location blockquote, #location small {
-    color: white; }
+    color: #222222; }
   #location a {
-    color: white; }
+    color: #00aeef; }
     #location a:hover, #location a:active {
-      color: #bcbcbc; }
+      color: #4cc6f3; }
   #location code, #location abbr, #location acronym {
-    color: #d9d9d9; }
+    color: black; }
   #location .row {
     overflow: hidden; }
   #location .address span {
@@ -3753,49 +3754,46 @@ button, .button {
   #location .address a {
     color: #00aeef; }
   @media only screen and (min-width: 768px) {
-    #location .address p {
-      text-align: left; }
     #location img {
-      border-radius: 0 0.5em 0.5em 0; } }
+      border-radius: 0.5em 0.5em 0.5em 0.5em; } }
 
-#past {
+#clientLogo {
   color: white;
   background: #222222 url(../img/white-bg.png);
   background-image: url(../img/dark-bg.jpg); }
-  #past h1, #past h2, #past h3, #past h4, #past h5, #past h6, #past .subheader, #past p, #past blockquote, #past small {
+  #clientLogo h1, #clientLogo h2, #clientLogo h3, #clientLogo h4, #clientLogo h5, #clientLogo h6, #clientLogo .subheader, #clientLogo p, #clientLogo blockquote, #clientLogo small {
     color: white; }
-  #past a {
+  #clientLogo a {
     color: white; }
-    #past a:hover, #past a:active {
+    #clientLogo a:hover, #clientLogo a:active {
       color: #bcbcbc; }
-  #past code, #past abbr, #past acronym {
+  #clientLogo code, #clientLogo abbr, #clientLogo acronym {
     color: #d9d9d9; }
-  #past .row {
+  #clientLogo .row {
     overflow: hidden; }
-  #past .address span {
+  #clientLogo .address span {
     display: block;
     padding-bottom: 0.5em; }
-  #past .address a {
+  #clientLogo .address a {
     color: #00aeef; }
   @media only screen and (min-width: 768px) {
-    #past .address p {
+    #clientLogo .address p {
       text-align: right; }
-    #past img {
+    #clientLogo img {
       border-radius: 0.5em 0.5em 0.5em 0.5em; } }
 
 #present {
-  color: #222222;
-  background: white url(../img/white-bg.png);
-  border-radius: 0;
-  background-image: url(../img/white-bg.png); }
+  color: white;
+  background: #222222 url(../img/white-bg.png);
+  background-image: url(../img/dark-bg.jpg); }
   #present h1, #present h2, #present h3, #present h4, #present h5, #present h6, #present .subheader, #present p, #present blockquote, #present small {
-    color: #222222; }
+    color: white; }
   #present a {
-    color: #00aeef; }
+    color: white; }
     #present a:hover, #present a:active {
-      color: #4cc6f3; }
+      color: #bcbcbc; }
   #present code, #present abbr, #present acronym {
-    color: black; }
+    color: #d9d9d9; }
   #present .row {
     overflow: hidden; }
   #present .address span {
@@ -3804,7 +3802,33 @@ button, .button {
   #present .address a {
     color: #00aeef; }
   @media only screen and (min-width: 768px) {
+    #present .address p {
+      text-align: right; }
     #present img {
+      border-radius: 0.5em 0.5em 0.5em 0.5em; } }
+
+#past {
+  color: #222222;
+  background: white url(../img/white-bg.png);
+  border-radius: 0;
+  background-image: url(../img/white-bg.png); }
+  #past h1, #past h2, #past h3, #past h4, #past h5, #past h6, #past .subheader, #past p, #past blockquote, #past small {
+    color: #222222; }
+  #past a {
+    color: #00aeef; }
+    #past a:hover, #past a:active {
+      color: #4cc6f3; }
+  #past code, #past abbr, #past acronym {
+    color: black; }
+  #past .row {
+    overflow: hidden; }
+  #past .address span {
+    display: block;
+    padding-bottom: 0.5em; }
+  #past .address a {
+    color: #00aeef; }
+  @media only screen and (min-width: 768px) {
+    #past img {
       border-radius: 0.5em 0.5em 0.5em 0.5em; } }
 
 #about {
